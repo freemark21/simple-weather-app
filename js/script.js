@@ -15,11 +15,10 @@ $(function() {
 $('#submit').on('submit', function(){
     var zip = $('#zip').val();
     getWeather(zip);
-    console.log(zip);
 });
     //above code block not working calling getWeather function below for 55344
     
-    getWeather(55344)
+    getWeather(55344);
        
 });
 
